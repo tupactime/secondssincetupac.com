@@ -16,32 +16,32 @@
       font-size: 1.4rem;
     }
     footer {
-      margin-top: 300px;
+      margin-top: 200px;
       color: #ccc;
     }
-    footer a {
+    a {
       color: #ccc;
     }
-    footer a:hover {
+    a:hover {
       color: #888;
     }
   </style>
 </head>
 <body>
-  <h3>Seconds Since Tupac (2Pac time)</h3>
+  <h3>Seconds Since Tupac (<a href="https://github.com/tupactime/secondssincetupac.com">2pac time</a>)</h3>
   <h1 id="tupac"></h1>
+  
+  <iframe src="http://ghbtns.com/github-btn.html?user=tupactime&amp;repo=secondssincetupac.com&amp;type=fork"
+    allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
 
   <footer>&lt;3 <a href="http://oak.is">Oak</a>.</footer>
+  <script src="https://raw.githubusercontent.com/tupactime/tupac.js/master/tupac.js"></script>
   <script>
-    var d = new Date(Date.UTC(1996, 9, 13, 23, 3))
-    var t = document.getElementById('tupac')
-    var now = Date.now() / 1000
-    var tupac = d.getTime() / 1000
-    t.innerHTML = Math.ceil(now - tupac).toString()
+    var t = document.getElementById('tupac');
+    t.innerHTML = new Tupac().getTupac().toString();
 
     var interval = setInterval(function(){
-      now = Date.now() / 1000
-      t.innerHTML = Math.ceil(now - tupac).toString()
+      t.innerHTML = new Tupac().getTupac().toString();
     }, 1000)
   </script>
 
