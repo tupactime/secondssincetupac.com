@@ -3,7 +3,8 @@ Seconds Since Tupac (Tupac Time)
 
 Tupac Time (not to be confused with Epoch Time) is a system for describing instants in time, defined as the number of seconds that have elapsed since the death of rap legend Tupac Shakur, who was pronounced dead on Friday, September 13, 1996 at 4:03 pm PDT (23:03 UTC).
 
-Conversion:
+## Conversion
+
 | Universal Coordinated Time (UTC) | Epoch Time | Tupac Time | Notes                        |
 | -------------------------------- | ---------- | ---------- | ---------------------------- |
 | 1996-09-13 23:03:00              | 842655780  | 0          | Time of death                |
