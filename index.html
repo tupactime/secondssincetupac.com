@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Seconds Since Tupac</title>
+  <style type="text/css">
+    body {
+      margin: 150px auto 50px;
+      font-family: Consolas, 'Lucida Console', Monaco, monospace;
+      text-align: center;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+      font-weight: 400;
+      font-size: 1.4rem;
+    }
+    footer {
+      margin-top: 300px;
+      color: #ccc;
+    }
+    footer a {
+      color: #ccc;
+    }
+    footer a:hover {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h3>Seconds Since Tupac (2Pac time)</h3>
+  <h1 id="tupac"></h1>
+
+  <footer>&lt;3 <a href="http://oak.is">Oak</a>.</footer>
+  <script>
+    var d = new Date(Date.UTC(1996, 9, 13, 23, 3))
+    var t = document.getElementById('tupac')
+    var now = Date.now() / 1000
+    var tupac = d.getTime() / 1000
+    t.innerHTML = Math.ceil(now - tupac).toString()
+
+    var interval = setInterval(function(){
+      now = Date.now() / 1000
+      t.innerHTML = Math.ceil(now - tupac).toString()
+    }, 1000)
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-1666437-32', 'secondssincetupac.com');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
