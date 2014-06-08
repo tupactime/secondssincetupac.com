@@ -5,7 +5,8 @@ Tupac Time (not to be confused with Epoch Time) is a system for describing insta
 
 http://secondssincetupac.com
 
-### Conversion
+Conversion
+----------
 
 | Universal Coordinated Time (UTC) | Epoch Time | Tupac Time | Notes                        |
 | -------------------------------- | ---------- | ---------- | ---------------------------- |
@@ -13,7 +14,13 @@ http://secondssincetupac.com
 | 2012-04-16 06:36:00              | 1334558160 | 491902380  | Hologram performs Coachella  |
 
 
-### Related
+Implementations
+---------------
+- Javscript: https://github.com/tupactime/tupac.js
+- Ruby: https://github.com/tupactime/tupac.rb
+
+Related
+-------
 - http://en.wikipedia.org/wiki/Unix_time
 - http://en.wikipedia.org/wiki/Epoch_(reference_date)
 - http://en.wikipedia.org/wiki/Tupac_Shakur
