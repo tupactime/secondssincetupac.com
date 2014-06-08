@@ -16,7 +16,7 @@ Conversion
 
 Implementations
 ---------------
-- Javscript: https://github.com/tupactime/tupac.js
+- JavaScript: https://github.com/tupactime/tupac.js
 - Ruby: https://github.com/tupactime/tupac.rb
 
 Related
