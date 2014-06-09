@@ -1,7 +1,7 @@
 Seconds Since Tupac (2Pac Time)
 ===============================
 
-Tupac Time (not to be confused with Epoch Time or Unix Time) is a system for describing instants in time, defined as the number of seconds that have elapsed since the death of rap legend Tupac Shakur, who was pronounced dead on Friday, September 13, 1996 at 4:03 pm PDT (23:03 UTC).
+Tupac Time (not to be confused with Epoch Time or Unix Time) is a system for describing instants in time, defined as the number of seconds that have elapsed since the death of rap legend Tupac Shakur. Tupac, also known by his stage name 2Pac, was pronounced dead on Friday, September 13, 1996 at 4:03 pm PDT (23:03 UTC).
 
 http://secondssincetupac.com
 
